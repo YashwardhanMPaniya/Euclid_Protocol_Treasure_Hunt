@@ -1,6 +1,10 @@
 ## Quickstart
 
 ```
+Node version: node v20.11.1 (npm v10.2.4)
+```
+
+```
 git clone https://github.com/YashwardhanMPaniya/Euclid_Protocol_Treasure_Hunt.git
 cd Euclid_Protocol_Treasure_Hunt
 yarn
