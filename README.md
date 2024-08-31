@@ -10,7 +10,7 @@ cd Euclid_Protocol_Treasure_Hunt
 yarn
 ```
 
-# Usage
+## Usage
 
 Compile:
 
