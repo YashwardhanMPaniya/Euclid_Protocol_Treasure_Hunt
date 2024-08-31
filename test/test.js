@@ -87,9 +87,7 @@ describe("TreasureHunt", function () {
   it("should prevent players from moving more than once per turn", async function () {
     const currentPosition = await treasureHunt.playerPositions(player1.address);
     const adjacentPosition = currentPosition + 1;
-
     await treasureHunt.connect(player1).move(adjacentPosition);
-
     await expect(
       treasureHunt.connect(player1).move(adjacentPosition + 1)
     ).to.be.revertedWith("Player can only move once per turn");
